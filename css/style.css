@@ -29,6 +29,11 @@ header a {
 	text-decoration: none;
 }
 
+header a:hover {
+transition: color 0.7s ease;
+color: rgb(111,127,122);
+}
+
 .wrapper .necklace {
 	border: solid rgb(151,173,166) 5px;
 }
@@ -47,8 +52,18 @@ header a {
 	text-decoration: none;
 }
 
+.main-content a:hover {
+	text-decoration: underline;
+}
+
 .press img {
 	border: solid rgb(204,204,204) 5px;
+	padding: 1px;
+}
+
+.press img:hover {
+	transition: border 0.7s ease;
+	border: solid rgb(111,127,122) 5px;
 	padding: 1px;
 }
 
